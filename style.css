@@ -42,6 +42,8 @@ header {
 }
 
 nav {
+    padding: 10px;
+
     grid-row: 3 / 4;
     grid-column: 1 / 2;
 
@@ -49,6 +51,8 @@ nav {
 }
 
 main {
+    padding: 10px;
+
     grid-row: 3 / 4;
     grid-column: 2 / 3;
     
@@ -56,6 +60,7 @@ main {
 }
 
 footer {
+    padding: 10px;
     height: 150px;
 
     grid-row: 4 / 5;
@@ -66,4 +71,21 @@ footer {
     width: 50%;
     margin-top: -34px;
     margin-left: 20px;
+}
+
+.titulo-big {
+    font-family: "cooper black";
+    background-color: #7ED957;
+    text-align: center;
+    margin: 0;
+
+    text-shadow:
+    2px 2px 0 #ff7eb9;
+}
+
+.titulo-medium {
+    font-family: "cooper black";
+    background-color: #38B6FF;
+    text-align: center;
+    margin: 0;
 }
