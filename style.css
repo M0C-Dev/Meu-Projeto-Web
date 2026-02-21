@@ -60,7 +60,6 @@ footer {
     margin-top: 30px;
 
     padding: 10px;
-    height: 150px;
 
     grid-row: 4 / 5;
     grid-column: 1 / 3;
@@ -86,7 +85,7 @@ footer {
 }
 
 .social-media-card {
-    height: 200px;
+    height: 150px;
 
     border: #DD9071 5px solid;
     border-radius: 5px;
