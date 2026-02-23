@@ -74,6 +74,8 @@ footer {
 #info-board {
     height:  max-content;
 
+    margin-top: auto;
+
     font-family: monospace;
 
     background-color: #ffffff;
@@ -225,7 +227,20 @@ li::before {
 /* OUTROS --------------------------------------------------------------------------------------------------------------------------- */
 
 #logo {
-    width: 50%;
+    height: 66px;
+    width: auto;
     margin-top: -34px;
     margin-left: 20px;
+}
+#logo-fim {
+    /*Por enquanto ta meio q uma gambiarra meio loca, mas melhor do que antes. O erro maior é q o footer tem padding, e o
+    header nao, então o ideal é dar um jeito nisso. Botando padding no header ou algo assim.*/
+
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+
+    height: 66px;
+    width: auto;
+    margin-top: -44px;
+    margin-left: 10px;
 }
