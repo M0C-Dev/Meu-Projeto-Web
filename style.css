@@ -84,12 +84,19 @@ footer {
     grid-row: 1 / 2;
 }
 
+/* PARTE SOCIAL DO FOOTER -------------------------------------------------------------------------------------------------------- */
+
+
 .social-media-card {
-    width: 170px;
+    width: 200px;
 
     border: #ffde59 5px solid;
     border-radius: 5px;
-    padding: 15px;
+    
+    padding: 8px;
+
+    box-sizing: border-box; /* Isso faz que o calculo considere o padding ao width e a border e fique uma soma muito louca
+    resumindo, faz tudo ficar mais certinho com a largura e altura!*/
 
     background-color: whitesmoke;
     grid-row: 1 / 2;
@@ -97,18 +104,30 @@ footer {
 
 .desc-social {
     background-color: white;
-    border-style: outset;
+    border: 3px  outset;
+
+    margin: 8px 0 0 0; /*tira a margem padrão ficando coladinho as coisa*/
+
     padding: 15px 5px;
 }
 
-.image-social{
-    max-width: 100%;
-    height: auto;
-    display: block; /* faz tirar o espaço q fica em baixo*/
-    margin-top: 5px;
-    border-style: inset;
+.social-small-title {
+    margin: 0;
+    padding: 2px 0px;
 }
 
+.image-social{
+    width: 100%;
+    height: auto;
+
+    display: block;
+    margin: 0px 0px;
+
+    box-sizing: border-box; /* Isso faz que o calculo considere o padding ao width e a border e fique uma soma muito louca
+    resumindo, faz tudo ficar mais certinho com a largura e altura!*/
+
+    border: 3px inset #c8c2b5;
+}
 
 .titulo-social {
     font-family: "cooper black";
