@@ -1,5 +1,5 @@
 body {
-    background-image: url(imgs/sparse\ stars.png);
+    background-image: url(imgs/backgrounds/sparse\ stars.png);
     background-repeat: repeat;
 
     font-family: Arial, Helvetica, sans-serif;
@@ -27,7 +27,7 @@ header, nav, main, footer, .subtitulo {
 header {
     height: 150px;
 
-    background-image: url(imgs/backtexture\ cat.png);
+    background-image: url(imgs/backgrounds/backtexture\ cat.png);
     background-repeat: repeat;
 
     grid-row: 1 / 2;
@@ -54,7 +54,7 @@ main {
 
 footer {
 
-    background-image: url(imgs/background\ cat\ dark.png);
+    background-image: url(imgs/backgrounds/background\ cat\ dark.png);
     background-repeat: repeat;
 
     margin-top: 30px;
@@ -64,6 +64,7 @@ footer {
     grid-row: 4 / 5;
     grid-column: 1 / 3;
 
+    grid-auto-columns:auto max-content max-content max-content;
     display: grid;
     grid-gap: 10px;
 
@@ -88,17 +89,20 @@ footer {
 
 
 .social-media-card {
-    width: 200px;
+    width: 205px;
 
     border: #ffde59 5px solid;
     border-radius: 5px;
     
     padding: 8px;
 
+    box-shadow: 0px 2px 7px #67382b;
+
     box-sizing: border-box; /* Isso faz que o calculo considere o padding ao width e a border e fique uma soma muito louca
     resumindo, faz tudo ficar mais certinho com a largura e altura!*/
 
     background-color: whitesmoke;
+
     grid-row: 1 / 2;
 }
 
