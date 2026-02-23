@@ -221,6 +221,8 @@ li::before {
     
     /* box-shadow: 0px 2px 7px #67382b; */
     box-shadow: 5px 5px 0 #ff7eb9;
+
+    border: #ff7eb9 3px solid;
 }
 
 #atulizacoes-board::after {
