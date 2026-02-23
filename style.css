@@ -85,14 +85,39 @@ footer {
 }
 
 .social-media-card {
-    height: 150px;
+    width: 170px;
 
-    border: #DD9071 5px solid;
+    border: #ffde59 5px solid;
     border-radius: 5px;
     padding: 15px;
 
-    background-color: white;
+    background-color: whitesmoke;
     grid-row: 1 / 2;
+}
+
+.desc-social {
+    background-color: white;
+    border-style: outset;
+    padding: 15px 5px;
+}
+
+.image-social{
+    max-width: 100%;
+    height: auto;
+    display: block; /* faz tirar o espaço q fica em baixo*/
+    margin-top: 5px;
+    border-style: inset;
+}
+
+
+.titulo-social {
+    font-family: "cooper black";
+    background-color: #ff7eb9;
+    text-align: center;
+    margin: 0;
+
+    border: #ff7eb9 3px;
+    border-style: outset;
 }
 
 .Github-card {
@@ -120,13 +145,6 @@ footer {
 .titulo-medium {
     font-family: "cooper black";
     background-color: #38B6FF;
-    text-align: center;
-    margin: 0;
-}
-
-.titulo-social {
-    font-family: "cooper black";
-    background-color: #ff7eb9;
     text-align: center;
     margin: 0;
 }
